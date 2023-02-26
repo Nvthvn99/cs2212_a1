@@ -1,0 +1,136 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <title>Form</title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+   <body>
+    <form>
+        <!-- Part 1: HTML -->
+        <!-- 1.1 Adding users personal info -->
+        <h3> Personal Information </h3>
+        <label for="name"> Name:</label>
+        <input type = "text"> <br>
+
+        <label for="address"> Address of Property:</label>
+        <input type = "text"> <br>
+
+        <label for="email"> Email Address:</label>
+        <input type = "text"> <br>
+
+        <label for="phone number"> Phone Number:</label>
+        <input type = "number"> <br> 
+
+        <!-- !!Creating a checkbox w/ 4 options, to ask user how many years they want to stay!!.-->
+
+        <!-- Used a <legend> element for the "heading" of this section -->
+        <legend> How many years do you expect to rent?</legend> 
+        <div> <!-- Used CSS code with div to have the text be at the right of the box -->
+            <input type="checkbox" id="1 year" name="1 year" value="1 year" />
+            <label for="1 year">1 Year</label> 
+          </div>
+
+          <div>
+            <input type="checkbox" id="2 years" name="2 years" value="1 years" />
+            <label for="2 years">2 Years</label> 
+          </div>
+        
+          <div>
+            <input type="checkbox" id="3 years" name="3 years" value="3 years" />
+            <label for="3 years">3 Years</label> 
+          </div>
+        
+          <div>
+            <input type="checkbox" id="3 +" name="3 +" value="3 +" />
+            <label for="3 +">More than 3 years</label> 
+          </div>
+
+          <hr>
+        </form>
+
+
+          <!--1.2 Occupancy details -->
+          
+        <form>
+            <h3> Occupancy Details</h3>
+
+
+            <!-- Getting the total num of people staying in the house with a checkbox-->
+            <legend> Total Number of Occupants:</legend><br>
+            <div>
+                <input type="checkbox" id="1 Occupants" name="1 Occupants" value="1 Occupants" />
+                <label for="1 Occupants">1 Occupant</label> 
+              </div> 
+
+              <div>
+                <input type="checkbox" id="2 Occupants" name="2 Occupants" value="2 Occupants" />
+                <label for="2 Occupants">2 Occupants</label> 
+              </div> 
+
+              <div>
+                <input type="checkbox" id="3 Occupants" name="3 Occupants" value="3 Occupants" />
+                <label for="3 Occupants">3 Occupants</label> 
+            </div>
+
+              <div>
+                <input type="checkbox" id="3 Occupants +" name="3 Occupants +" value="3 Occupants +" />
+                <label for="3 Occupants +">More than 3 Occupants</label> 
+              </div> 
+
+              <!-- Getting num of kids with checkbox-->
+              <br>
+              <legend> Total Number of Children:</legend><br>
+              <div>
+                <input type="checkbox" id="1 kid" name="1 kid" value="1 kid" />
+                <label for="1 kid">1 Child</label> 
+              </div> 
+
+              <div>
+                <input type="checkbox" id="2 kids" name="2 kids" value="2 kids" />
+                <label for="2 kids">2 Children</label> 
+              </div> 
+
+              <div>
+                <input type="checkbox" id="3 kids" name="3 kids" value="3 kids" />
+                <label for="3 kids">3 Children</label> 
+            </div>
+
+              <div>
+                <input type="checkbox" id="3 kids +" name="3 kids +" value="3 kids +" />
+                <label for="3 kids +">More than 3 Children</label> 
+              </div> 
+
+              <br>
+              <!-- Single answer checkboxes-->
+              <label>
+                Do you have pets?:
+                <input type="checkbox" name="pet">
+              </label> <br>
+
+              <label>
+                Do you have smoke?:
+                <input type="checkbox" name="smoke">
+              </label>
+        </form>
+        <hr>
+        
+        <!-- 1.3 Peronal Details -->
+    
+        <form>
+            <h3> Income Details</h3>
+            <label for="job"> Job Title:</label>
+        <input type = "text"> <br>
+
+        <label for="income"> Income:</label>
+        <input type = "number"> <br>
+
+            <!-- Making a submit button -->
+
+        <input type="submit" value="Submit">
+
+        </form>
+
+   </body>
+    
+</html>

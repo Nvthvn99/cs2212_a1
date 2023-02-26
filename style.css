@@ -1,0 +1,42 @@
+
+/* Part 2 - CSS*/ 
+
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label, input {
+    display:block;
+    margin-bottom:10px
+}
+
+input {
+    padding: 6px;
+}
+
+button{
+    margin-top:10px;
+}
+
+/* Centering the checkbox from part 1*/ 
+div {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+/* Putting checkbox beside question in 1.2 + adding a font to labels*/
+  label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-flex;
+    align-items: right;
+    margin-right: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
